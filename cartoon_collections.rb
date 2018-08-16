@@ -13,9 +13,9 @@ end
 def long_planeteer_calls(long_planeteer_calls)
   
   long_planeteer_calls.find_all do |call|
-    testing = call.length > 4
+    testing_variable = call.length > 4
   end
-  if testing.length > 1 
+  if testing_variable.length > 1 
     return true 
   else 
     return false
