@@ -20,5 +20,5 @@ end
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   result = cheese & cheese_types
-  result.to_s 
+  result.join()
 end
