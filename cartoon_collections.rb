@@ -20,7 +20,7 @@ end
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   result = cheese & cheese_types
-  if result.include?(cheese_types) == true
+  if result.lenght > 1
   result.join()
 else 
   nil 
