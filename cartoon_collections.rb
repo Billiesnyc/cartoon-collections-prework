@@ -11,11 +11,11 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(long_planeteer_calls)
-  
+  testing_array = []
   long_planeteer_calls.find_all do |call|
-    testing_variable = call.length > 4
+    testing_array.push(call.length > 4)
   end
-  if testing_variable.length > 1 
+  if testing_array.length > 1 
     return true 
   else 
     return false
