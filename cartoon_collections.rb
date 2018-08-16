@@ -15,7 +15,7 @@ def long_planeteer_calls(long_planeteer_calls)
   long_planeteer_calls.find_all do |call|
     testing_array.push(call.length >= 4)
   end
-  if testing_array.length > 1 
+  if testing_array.length >= 1 
     return true 
   else 
     return false
