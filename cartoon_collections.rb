@@ -23,5 +23,6 @@ def find_the_cheese(cheese)
   if result.include?(cheese_types) == true
   result.join()
 else 
-  nil
+  nil 
+end
 end
